@@ -18,13 +18,18 @@ Should return: 160 */
 
 // SOLUTION //
 
-function findOutlier(integers, n){
+
+// this function which will return array of odd and even 
+function findOutlier(integers){
   
+  //dummies
   var odd = [];
   var even = [];
   
+  // forEach is a method on Array.prototype, which takes a callback function with one argument 
+  // On every element of array forEach will call this function and push current element to proper array.
   integers.forEach(function(integer) {
-  
+ 
     if(integer % 2 === 0) {
       even.push(integer)
     } else {
@@ -32,6 +37,7 @@ function findOutlier(integers, n){
     }
   });
   
+  // We need to find that array with one element only.
   if(even.length === 1) {
     return even[0];
   } else {
