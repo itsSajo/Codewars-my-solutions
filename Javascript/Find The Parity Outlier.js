@@ -1,4 +1,4 @@
-// QUESTION //
+// PROBLEM //
 
 
 /* You are given an array (which will have a length of at least 3, but could be very large) containing integers. 

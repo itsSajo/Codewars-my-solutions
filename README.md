@@ -1,4 +1,4 @@
-## My Codewars solutions
+## My solutions to katas
 
 I will try to give basic answers to challenges on [Codewars](http://codewars.com) with comments on why/what is that in code.
 All solutions are based on javascript syntax. 
